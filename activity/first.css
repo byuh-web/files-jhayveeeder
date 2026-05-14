@@ -1,0 +1,10 @@
+header {
+    height: 200px;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
