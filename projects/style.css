@@ -1,0 +1,13 @@
+main{
+    color: blue;
+}
+
+header{
+    color: red;
+}
+header h1 {
+  text-transform: uppercase;
+}
+main p{
+    color: black;
+}
