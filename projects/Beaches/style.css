@@ -79,12 +79,12 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.emphasize-color {
+.emp {
     color: #B50E36;
     font-weight: bold;
 }
 
-.deemphasize-color {
+.deemp {
     color: #709460;
     font-weight: bold;
 }
