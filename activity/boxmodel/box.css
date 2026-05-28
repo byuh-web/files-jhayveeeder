@@ -1,0 +1,9 @@
+.card{
+    background-color: yellowgreen;
+    border: 3px solid navy;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    width: 400px;
+    height: 80px;
+    margin: 0 auto 24px auto;
+}
