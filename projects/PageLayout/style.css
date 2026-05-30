@@ -1,8 +1,10 @@
 header {
     background-image: url("Pokemon1.jpg");
+    background-origin: content-box;
+    background-clip: content-box;
     text-align: center;
-    margin: 0 auto; 
-	width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 body{
     background-image: url("AshPokemon.jpg");
@@ -51,10 +53,14 @@ body{
     margin: 0;
     line-height: 1.6;
 }
-.example-div{
-	background-color: #b15241;
-	margin: 0 auto; 
-	width: 75%;
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+.example-div {
+    width: 850px;
+    margin: 0 auto;
+    background-color: #b15241;
 }
 div {
 	padding: 0.5rem;
