@@ -1,0 +1,53 @@
+header {
+    background-color: #567088;
+    text-align: center;
+    margin: 0 auto; 
+	width: 75%;
+}
+body{
+    background-image: url("AshPokemon.jpg");
+    background-repeat: repeat;
+    background-size: 300px 300px;
+}
+.float-image-example {
+	float: left;
+	margin: .5rem .5rem .5rem 0;
+    width: 450px;
+    height: auto;
+}
+footer {
+    background-color: #38610B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto; 
+	width: 75%;
+}
+.overview {
+    background-color: #b15241;
+    padding: 25px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.6;
+}
+.example-div{
+	background-color: #b15241;
+	margin: 0 auto; 
+	width: 75%;
+}
+a {
+	background-color: #e3e8ec;
+    padding: 0.5rem;
+    margin: 0;
+}
+div {
+	padding: 0.5rem;
+}
+
+div div {
+	background-color: cornflowerblue;
+	border: 1px solid darkblue;
+}
