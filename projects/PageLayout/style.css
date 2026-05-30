@@ -5,6 +5,8 @@ header {
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    background-size: 300px 300px;
+
 }
 body{
     background-image: url("AshPokemon.jpg");
@@ -37,11 +39,12 @@ nav a:hover {
     background-color: #567088;
 }
 footer {
+    
     color: white;
     text-align: center;
     padding: 15px;
-    margin: 0 auto; 
-	width: 75%;
+    margin: 0 auto;
+
 }
 .overview {
     background-color: #b15241;
