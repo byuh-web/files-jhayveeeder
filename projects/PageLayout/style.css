@@ -1,5 +1,4 @@
 header {
-    background-color: #567088;
     text-align: center;
     margin: 0 auto; 
 	width: 75%;
@@ -14,9 +13,22 @@ body{
 	margin: .5rem .5rem .5rem 0;
     width: 450px;
     height: auto;
+
+.float-image-example {
+    float: right;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: #B50E36;
+}
+
+nav a:visited {
+    color: #BBF86B;
+}
+
 }
 footer {
-    background-color: #38610B;
     color: white;
     text-align: center;
     padding: 15px;
