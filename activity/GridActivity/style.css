@@ -1,0 +1,38 @@
+body{
+    background-color: #8b2323;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.menu{
+    background-color: #a24e4e;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+div {
+	padding: .5rem;
+    text-align: center; 
+}
+
+div div {
+	background-color: #fff1cf;
+	border: 1px solid #e7d3d3;
+}
+
+.special{
+    background-color: #cce5ff;
+    grid-column: span 3;  
+    text-align: center;  
+}
+h1{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
