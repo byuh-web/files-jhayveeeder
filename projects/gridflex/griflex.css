@@ -6,11 +6,9 @@
 aside {
     background-color: #5D91D4;
     padding: 20px;
+	border: 2px solid black;
 }
 
-aside h2 {
-    margin-bottom: 10px;
-}
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,7 +19,8 @@ main {
 
 .box {
     background-color: antiquewhite;
-    border: 5x solid black;
+    border: 2px solid black;
+	text-align: center;
 }
 
 .foot {
@@ -37,7 +36,7 @@ img{
 nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: white;
+    background-color: antiquewhite;;
     text-align: center;
 }
 
@@ -50,6 +49,7 @@ h3{
 header{
 	display: grid;
 	background-color: #95A7C2;
+	border: 2px solid black;
 }
 .links{
 	display: grid;
@@ -58,4 +58,15 @@ header{
 h1{
 	display: grid;
 	justify-items: center;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+footer h2{
+	text-align: center;
+}
+footer{
+	background-color: antiquewhite;
+	border: 2px solid black;
 }
