@@ -14,10 +14,10 @@ aside {
 main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
-    justify-items: stretch;
+    justify-items: center;
 }
 
 .box {
@@ -31,14 +31,11 @@ main {
 .box img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    display: center;
 }
 
 aside img {
     width: 100%;
     height: auto;
-    display: block;
 }
 
 nav {
@@ -51,7 +48,6 @@ nav {
 nav a {
     display: block;
     padding: 10px;
-    text-decoration: none;
     color: black;
 }
 
