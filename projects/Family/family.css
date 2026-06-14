@@ -1,72 +1,113 @@
 .separate {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 30% 70%;
     padding: 20px;
+    gap: 1.5rem;
 }
+
 aside {
     background-color: #5D91D4;
     padding: 20px;
-	border: 2px solid black;
+    border: 2px solid black;
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
-	justify-items: center;
+    justify-items: stretch;
 }
 
 .box {
+    width: 350px;
+    height: 400px;
     background-color: antiquewhite;
     border: 2px solid black;
-	text-align: center;
+    text-align: center;
 }
 
-.foot {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.5rem
+.box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: center;
 }
-img{
-    width: 300px;
-    height: 350px;
+
+aside img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: antiquewhite;;
+    background-color: antiquewhite;
     text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+figcaption{
+    font-size: 9px;
 }
 
 nav a:hover {
     background-color: #BAA075;
 }
-h3{
-	text-align: center;
+
+h3 {
+    text-align: center;
 }
-header{
-	display: grid;
-	background-color: #95A7C2;
-	border: 2px solid black;
+
+h1 {
+    display: grid;
+    justify-items: center;
 }
-.links{
-	display: grid;
-	background-color: antiquewhite;
+
+header {
+    display: grid;
+    background-color: #95A7C2;
+    border: 2px solid black;
 }
-h1{
-	display: grid;
-	justify-items: center;
+
+.links {
+    display: grid;
+    background-color: antiquewhite;
 }
-body{
-	font-family: 'Roboto', sans-serif;
+
+body {
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-footer h2{
-	text-align: center;
+
+footer {
+    background-color: antiquewhite;
+    border: 2px solid black;
 }
-footer{
-	background-color: antiquewhite;
-	border: 2px solid black;
+
+@media (max-width: 700px) {
+
+    .separate {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        grid-template-columns: 1fr;
+    }
+
+    .box img {
+        height: auto;
+    }
 }
