@@ -4,4 +4,24 @@ table, th, td {
 }
 body {
     background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    justify-items: center;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: antiquewhite;;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+input {
+	display: block;
+	margin-bottom: 1rem;
+}
+select{
+    display: block;
+	margin-bottom: 1rem;
 }
