@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Pokémon TCG Type Matchups</h1>
-        <nav>
+        <nav class="links">
             <a href="main.html">Home</a>
             <a href="page1.html">Overview</a>
             <a href="page2.html">Pokemon Cards</a>
@@ -19,26 +19,33 @@
         </nav>
     </header>
     <p>The </p>
-    <table>
+<table class = matchup>
     <tr>
-        <th>type</th>
+        <th></th>
+        <th colspan="11">Defender</th>
+    </tr>
+    <tr>
+        <td rowspan="12"><b>Attacker</b></td>
+    </tr>
+    <tr>    
+        <th>Type</th>
         <th>Water</th>
         <th>Fire</th>
         <th>Grass</th>
         <th>Lightning</th>
         <th>Dragon</th>
         <th>Psychic</th>
-        <th>Dark</th>
+        <th>Darkness</th>
         <th>Fighting</th>
         <th>Colorless</th>
         <th>Metal</th>
-    </tr>
+    </tr>   
     <tr>
-        <td>Water</td>
+        <td><b>Water</b></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>2x</td>
+        <td>-20</td>
+        <td>-20</td>
         <td></td>
         <td></td>
         <td></td>
@@ -47,12 +54,51 @@
         <td></td>
     </tr>
 <tr>
-    <td>Fire</td>
+    <td><b>Fire</b></td>
+    <td>-20</td>
+    <td></td>
+    <td>2x</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+    <td>2x</td>
+</tr>
+<tr>
+    <td><b>Grass</b></td>
+    <td>2x</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-20</td>
+</tr>
+<tr>
+    <td><b>Lightning</b></td>
+    <td>2x</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2x</td>
+    <td>-20</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td><b>Dragon</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2x</td>
     <td></td>
     <td></td>
     <td></td>
@@ -60,20 +106,46 @@
     <td></td>
 </tr>
 <tr>
-    <td>Grass</td>
+    <td><b>Psychic</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
+    <td>-20</td>
+    <td>2x</td>
+    <td></td>
+    <td>-20</td>
+</tr>
+<tr>
+    <td><b>Darkness</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2x</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td>Lightning</td>
+    <td><b>Fighting</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2x</td>
+    <td></td>
+    <td>-20</td>
+    <td>2x</td>
+    <td></td>
+    <td></td>
+    <td>-20</td>
+</tr>
+<tr>
+    <td><b>Colorless</b></td>
     <td></td>
     <td></td>
     <td></td>
@@ -82,82 +154,17 @@
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>2x</td>
     <td></td>
 </tr>
 <tr>
-    <td>Dragon</td>
+    <td><b>Metal</b></td>
     <td></td>
     <td></td>
+    <td>2x</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Psychic</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Dark</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Fighting</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Colorless</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Metal</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2x</td>
     <td></td>
     <td></td>
     <td></td>
@@ -166,9 +173,9 @@
 </table>
 <p>Legend:
 <ul>
-    <li>X = Not effective</li>
-    <li>1x = Normal damage</li>
-    <li>2x = Super effective damage</li>
+    <li>-20 = Resistance</li>
+    <li>(blank) = Normal Damage</li>
+    <li>2x = Weakness</li>
 </ul>
 </p>
     
