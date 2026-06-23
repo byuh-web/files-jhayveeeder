@@ -80,3 +80,30 @@ aside {
     grid-row-gap: 1rem;
     justify-items: center;
 }
+.water{
+    background-color: dodgerblue;
+}
+.fire{
+    background-color: indianred;
+}
+.grass{
+    background-color: chartreuse;
+}
+.lightning{
+    background-color:gold
+}
+.dragon{
+    background-color: darkkhaki;
+}
+.psychic{
+    background-color: darkorchid;
+}
+.defender{
+    background-color:cornflowerblue;
+}
+th.defender{
+    height: 50px;
+}
+.attacker{
+    background-color: lightcoral;
+}
