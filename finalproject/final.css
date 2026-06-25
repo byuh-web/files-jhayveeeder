@@ -9,18 +9,47 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     justify-items: center;
-}
+    padding: 10px;
+}   
 nav {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: antiquewhite;;
     text-align: center;
 }
-h1{
+aside{
     text-align: center;
-    border: 2px solid black;
-    background-color: dodgerblue;
+    font-size: 16px;
 
+}
+nav a {
+    display: block;
+    color: black;
+}
+header {
+    display: grid;
+    background-color: darksalmon;
+    border: 2px solid black;
+}
+.links {
+    display: grid;
+    background-color: darksalmon;
+}
+h1{
+    border: 2px solid black;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 15px;
+    margin: 10px;
+}
+main{
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+}
+h4{
+    text-align: center;
 }
 h2{
     text-align: center;
@@ -33,13 +62,7 @@ select{
     display: block;
 	margin-bottom: 1rem;
 }
-.links {
-    display: grid;
-    background-color: darksalmon;
-    border: 2px solid black;
-    width: 1200px;
-    height: 20px;
-}
+
 .video{
 text-align: center;
 margin-top: 50px;
@@ -59,8 +82,12 @@ margin-bottom: 100px;
     margin: 10px auto;
 }
 .matchup{
-    margin: 30px auto;
+    margin: 0 auto;
     border: 3px solid black;
+    min-width: 300px;
+}
+.table{
+    width: 100%;
 }
 .box {
     width: 300px;
@@ -74,9 +101,6 @@ margin-bottom: 100px;
     grid-template-columns: 30% 70%;
     padding: 20px;
     gap: 1.5rem;
-}
-aside {
-    font-size: 16px;
 }
 .cards {
     display: grid;
@@ -159,27 +183,39 @@ th.defender{
 footer{
     border: 2px solid black;
     background-color:lightslategrey;
-    width: 1400px;
-    height: 75px;
+    padding: 5px;
 }
 p{
     font-size: 15px;
 }
-@media (max-width: 700px) {
-
-    .separate {
+@media (max-width: 700px){
+    .links {
         grid-template-columns: 1fr;
     }
-
-    main {
+    .page2 {
         grid-template-columns: 1fr;
     }
-
-    nav {
+    .cards {
         grid-template-columns: 1fr;
     }
-
     .box img {
         height: auto;
     }
+    .matchup {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    th, td {
+        padding: 3px;
+        font-size: 13px;
+    }
+    main{
+        grid-template-columns: 1fr;
+
+    }
+    .pokemon {
+    max-width: 100%;
+    height: auto;
+}
 }
